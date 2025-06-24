@@ -1,6 +1,4 @@
-def main():
-    print("Hello from youtube-video-downloader!")
+from pytube import YouTube
+import tkinter as tk
+from tkinter import fileddialog
 
-
-if __name__ == "__main__":
-    main()
